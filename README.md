@@ -8,5 +8,7 @@ COPY . /usr/share/nginx/html  #for using nginx web server
 build docker image by using command 
 docker build -t static-html-docker-image  .
 
+In dockerhub create a new container for this docker-image
+
 run docker image by 
 docker run -it -d -p 8080:80 static-html-docker-image 
