@@ -49,6 +49,8 @@ docker image ls
  we can see the pushed image in acr repository page
  and also there is a log for note activity
  
+ we can run the site by localhost:5000 locally
+ 
  create a web app from web services in azure portal for get an url for this static website
  
  An error occured while creating web app:
