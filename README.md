@@ -49,7 +49,7 @@ docker image ls
  we can see the pushed image in acr repository page
  and also there is a log for note activity
  
- create a web app in azure portal for get an url for this static website
+ create a web app from web services in azure portal for get an url for this static website
 
 
 
