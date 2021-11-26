@@ -50,6 +50,11 @@ docker image ls
  and also there is a log for note activity
  
  create a web app from web services in azure portal for get an url for this static website
+ 
+ An error occured while creating web app:
+ {"code":"InvalidTemplateDeployment","details":[{"code":"ValidationForResourceFailed","message":"Validation failed for a resource. Check 'Error.Details[0]' for more information.","details":[{"code":"InvalidSkusForXenon","message":"Apps running on Windows Containers are available only in Hyper-V Container enabled SKU."}]}],"message":"The template deployment 'Microsoft.Web-WebApp-Portal-46670ad8-b8e7' is not valid according to the validation procedure. The tracking id is '18c01907-cbbe-4920-bb12-73aa6231020e'. See inner errors for details."}
+ 
+ my azure student subsciption don't allow me to do
 
 
 
