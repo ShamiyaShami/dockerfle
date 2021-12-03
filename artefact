@@ -1,0 +1,25 @@
+git clone https://github.com/ShamiyaShami/dockerfle   
+Install Docker Desktop from ‘https://www.docker.com/products/docker-desktop’.
+Install kernel for Docker. 
+Create Dockerfile for my webpage.
+Open powershell
+Create docker image: docker build -t static-docker-img .
+Run the docker image: docker run -d -p 80:80 static-docker-img 
+Run localhost:80 in browser;
+ 
+View containers: docker ps
+Create ‘shamidocker’ repository in docker hub.
+Docker login command: docker login  
+Tag the docker image : docker build -t shamidocker/docker-website .    
+Push the docker push shamidocker/docker-website: latest
+Azure login command : az login   
+Azure registry login: az login mydockerregister007.azurecr.io
+Tag the docker container docker tag shamidocker/docker-website mydockerregister007.azurecr.io/static-img
+docker push mydockerregister007.azurecr.io/static-img
+we can pull this image by,
+docker pull mydockerregister007.azurecr.io/static-img
+run this docker image in localhost:5000 port;
+docker run -it --rm -p 5000:80 mydockerregister007.azurecr.io/static-img
+for deploy continuously or by a URL I tried to create a webapp on my Azure portal but it doesn’t work for me because of my Azure for student subscription plan. When I tried it shows an error page.
+ 
+
